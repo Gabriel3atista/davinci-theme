@@ -110,7 +110,7 @@
     "input.placeholderForeground": "#AAADC1",
     "textLink.foreground": "#ffffff",
     "editor.background": "#23252E",
-    "editor.foreground": "#AAADC1",
+    "editor.foreground": "#ffffff",
     "editorLineNumber.foreground": "#AAADC1",
     "editorCursor.foreground": "#f9215d",
     "editorCursor.background": "#000000",
@@ -531,7 +531,9 @@
         "name": "Braces in markdown paragraphs",
         "scope": [
             "meta.paragraph.markdown punctuation.definition.string.begin",
-            "meta.paragraph.markdown punctuation.definition.string.end"
+            "meta.paragraph.markdown punctuation.definition.string.end",
+            "meta.object-literal.key",
+            "text.html.derivative"
         ],
         "settings": {
             "foreground": "#F8F8F2"
@@ -600,7 +602,8 @@
         "scope": [
             "comment keyword.codetag.notation",
             "comment.block.documentation keyword",
-            "comment.block.documentation storage.type.class"
+            "comment.block.documentation storage.type.class",
+            "punctuation.accessor.optional.ts"
         ],
         "settings": {
             "foreground": "#F9507F"
@@ -650,7 +653,8 @@
         "scope": [
             "constant.character.escape",
             "constant.character.string.escape",
-            "constant.regexp"
+            "constant.regexp",
+            ""
         ],
         "settings": {
             "foreground": "#F9507F"
@@ -729,7 +733,7 @@
     {
         "name": "Decorator Objects",
         "scope": [
-            "meta.decorator variable.other.object"
+            "meta.decorator variable.other.object",
         ],
         "settings": {
             "foreground": "#13FBA7"
@@ -793,7 +797,8 @@
             "support.type.property-name"
         ],
         "settings": {
-            "fontStyle": "regular"
+            "fontStyle": "regular",
+            "foreground": "#66DAFF"
         }
     },
     {
@@ -847,7 +852,9 @@
             "punctuation.terminator.expression.php",
             "storage.type.generic.java",
             "string.template meta.brace",
-            "string.template punctuation.accessor"
+            "string.template punctuation.accessor",
+            "punctuation.definition.tag.end.html",
+            "punctuation.definition.tag.begin.html"
         ],
         "settings": {
             "foreground": "#F8F8F2"
