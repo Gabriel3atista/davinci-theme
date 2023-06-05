@@ -539,7 +539,7 @@
             "meta.paragraph.markdown punctuation.definition.string.begin",
             "meta.paragraph.markdown punctuation.definition.string.end",
             "meta.object-literal.key",
-            "text.html.derivative"
+            "text.html"
         ],
         "settings": {
             "foreground": "#F8F8F2"
