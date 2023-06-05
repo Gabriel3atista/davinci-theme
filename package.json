@@ -1,9 +1,11 @@
 {
   "name": "Davinci",
+  "author": "Gabriel Batista",
   "displayName": "Davinci",
   "description": "Soft theme for VSCode",
-  "version": "1.0.9",
+  "version": "1.10.0",
   "publisher": "GabrielBatista",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/Gabriel3atista/davinci-theme"
@@ -25,7 +27,12 @@
       {
         "label": "Davinci",
         "uiTheme": "vs-dark",
-        "path": "./themes/Davinci-color-theme.json"
+        "path": "./themes/davinci-default.json"
+      },
+      {
+        "label": "Davinci Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/davinci-dark.json"
       }
     ]
   }

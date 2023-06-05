@@ -1,7 +1,13 @@
 {
+  "$schema": "vscode://schemas/color-theme",
   "name": "Davinci",
+  "author": "Gabriel Batista",
   "type": "dark",
+  "semanticClass": "theme.davinci",
   "semanticHighlighting": true,
+  "maintainers": [
+    "Gabriel Batista <gabriel3atista@gmail.com>"
+],
   "davinci": {
     "base": [
         "#282A36",
@@ -157,7 +163,7 @@
     "editorGutter.deletedBackground": "#f9215d",
     "editorGutter.foldingControlForeground": "#AAADC1",
     "editorCodeLens.foreground": "#AAADC1",
-    "editorGroup.border": "#AAADC100",
+    "editorGroup.border": "#363947",
     "diffEditor.insertedTextBackground": "#57fdaf26",
     "diffEditor.insertedTextBorder": "#00000000",
     "diffEditor.removedTextBackground": "#fd577e26",
@@ -195,18 +201,18 @@
     "breadcrumb.foreground": "#AAADC1",
     "breadcrumb.focusForeground": "#ffffff",
     "editorGroupHeader.border": "#ff005400",
-    "editorGroupHeader.tabsBackground": "#23252e",
+    "editorGroupHeader.tabsBackground": "#1b1d24",
     "editorGroupHeader.tabsBorder": "#36394700",
     "tab.activeForeground": "#ffffff",
     "tab.border": "#00000000",
-    "tab.activeBackground": "#363947",
-    "tab.activeBorder": "#f9215d",
-    "tab.activeBorderTop": "#f9215d00",
-    "tab.inactiveBackground": "#23252e",
+    "tab.activeBackground": "#23252e",
+    "tab.activeBorder": "#00000000",
+    "tab.activeBorderTop": "#f9215d",
+    "tab.inactiveBackground": "#1b1d24",
     "tab.inactiveForeground": "#AAADC1",
-    "tab.hoverBackground": "#363947",
+    "tab.hoverBackground": "#23252e",
     "tab.hoverForeground": "#ffffff",
-    "tab.hoverBorder": "#f9215d",
+    "tab.hoverBorder": "#00000000",
     "scrollbarSlider.background": "#363947",
     "scrollbarSlider.hoverBackground": "#4a4e61",
     "scrollbarSlider.activeBackground": "#5d627a",
@@ -854,7 +860,8 @@
             "string.template meta.brace",
             "string.template punctuation.accessor",
             "punctuation.definition.tag.end.html",
-            "punctuation.definition.tag.begin.html"
+            "punctuation.definition.tag.begin.html",
+            "source"
         ],
         "settings": {
             "foreground": "#F8F8F2"
