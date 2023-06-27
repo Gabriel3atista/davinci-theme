@@ -33,7 +33,17 @@
         "label": "Davinci Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/davinci-dark.json"
+      },
+      {
+        "label": "Davinci Light",
+        "uiTheme": "vs-dark",
+        "path": "./themes/davinci-light.json"
       }
     ]
+  },
+  "devDependencies": {
+    "js-yaml": "^4.1.0",
+    "tinycolor2": "^1.6.0",
+    "vsce": "^2.15.0"
   }
 }

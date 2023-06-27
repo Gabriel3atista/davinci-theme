@@ -1,6 +1,3 @@
-class Masterpiece {
-  constructor (props) {
-    this.title = props.title
-    this.author = props.author
-  }
+function masterpiece(props) {
+  const currentYear = new Date().getFullYear()
 }
