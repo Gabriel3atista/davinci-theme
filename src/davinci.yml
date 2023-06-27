@@ -5,7 +5,7 @@ maintainers:
   - Gabriel Batista <gabriel3atista@gmail.com>
 semanticClass: theme.davinci
 semanticHighlighting: true
-dracula:
+davinci:
   base:
     - &BG        '#282A36'
     - &FG        '#F8F8F2'
